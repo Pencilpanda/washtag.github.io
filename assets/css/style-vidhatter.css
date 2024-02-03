@@ -49,6 +49,7 @@ h6 {
 .card-text {
   display: inline-block;
   font-size: 15px;
+  vertical-align:-webkit-baseline-middle;
 }
 
 @media (max-width: 450px) {
@@ -62,7 +63,7 @@ h6 {
   margin-left: 15px;
   border-radius: 3px;
   border-width: 1px;
-  padding: 4px 8px;
+  padding: 3px 8px;
 }
 
 #cards i {
@@ -211,7 +212,7 @@ h6 {
 
 .navbar ul {
   margin: 0;
-  padding: 0;
+  padding: 0px 3px;
   display: flex;
   list-style: none;
   align-items: center;
@@ -231,7 +232,7 @@ h6 {
   align-items: center;
   justify-content: space-between;
   padding: 25px 15px 25px 15px;
-  font-size: 15px;
+  font-size: 16px;
   color: #fff;
   white-space: nowrap;
   transition: 0.3s;
