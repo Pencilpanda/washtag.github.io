@@ -7,7 +7,7 @@
 body {
   font-family: 'Karla', sans-serif;
   color: #30302f;
-  background-color: c64746;
+  background-color: #000000;
 }
 
 a {
@@ -481,14 +481,13 @@ color: #00A7FA;}
 --------------------------------------------------------------*/
 #vidhatter {
   object-fit: cover;
-  mix-blend-mode: multiply;
   opacity: 1;
   width: 100vw;
   height: 100vh;
   position: fixed;
   top: 0;
   left: 0;
-  z-index: -5;
+  z-index: -1;
 }
 
 #hero {
@@ -513,7 +512,7 @@ color: #00A7FA;}
   font-family: 'Karla', sans-serif;
   font-size: 48px;
   font-weight: 700;
-  line-height: 56px;
+  line-height: 34px;
   text-transform: uppercase;
   color: #fff;
 }
@@ -1319,6 +1318,8 @@ footer {
   font-family: 'Inconsolata', monospace;
   margin: auto;
   padding-top: 20px;
+  max-height: 500px;
+  border-bottom: #0089cd solid 10px;
 }
 
 footer i{
@@ -1344,10 +1345,11 @@ display: inline-block;
 
 footer .iratok {
   margin-top: 30px;
+  margin-bottom: 50px;
 }
 
 footer img {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 
