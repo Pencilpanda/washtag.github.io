@@ -531,8 +531,16 @@ animation: hero-pic 4s ease 0s 1 alternate forwards;
 }
 
 @media (max-width: 750px) {
-  #hero .hero-tartalom #hero-pic {
+  #hero  {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+@media (max-width: 750px) {
+  #hero .hero-tartalom img{
     width: 200%;
+    margin-left: -200px;
 }
 }
 
@@ -688,39 +696,40 @@ section {
 
 .why-us .box {
   background-color: #c64746;
-  padding: 20px 20px;
+  padding: 30px 30px;
   transition: all ease-in-out 0.3s;
-  margin: auto 15px;
+  margin: auto 0;
   height: 100%;
+  text-align: center;
 }
 
 .why-us .kekbox {
   background-color: #0089cd;
-  padding: 20px 20px;
+  padding: 30px 30px;
   transition: all ease-in-out 0.3s;
-  margin: auto 15px;
+  margin: auto 0;
+  height: 100%;
+  text-align: center;
 }
 
 
-.why-us .box h4 {
-  font-size: 24px;
+.why-us  h4 {
+  font-size: 30px;
   font-weight: 600;
-  margin: 20px 0;
+  margin-bottom: 10px;
   color: #ffffff;
   font-family: 'Inconsolata', monospace;
-  display: inline;
-  margin-left: 6px;
 }
 
 .why-us .box p {
   color: #FFFFFF;
   font-size: 18px;
-  font-weight: 200;
+  font-weight: 400;
   margin: 0;
   padding: 0;
   width: 100%;
   display: block;
-  padding-left: 70px;
+  text-align: center;
 }
 
 
