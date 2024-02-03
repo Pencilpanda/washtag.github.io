@@ -175,6 +175,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 0px 0px;
+  height: 75px;
 }
 
 
@@ -185,18 +186,20 @@ h6 {
 .img-fluid {
   display: flex;
   max-width: 80%;
-  height: auto;
+  height: 80%;
 }
 
 #header .logo {
   height: 65px;
   font-size: 30px;
   margin: 0;
-  padding: 5px 0px;
+  padding: 4px 0px;
   line-height: 1;
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
+  margin-top: 1px;
+  margin-bottom: 1px;
 }
 
 
@@ -232,7 +235,7 @@ h6 {
   align-items: center;
   justify-content: space-between;
   padding: 25px 15px 25px 15px;
-  font-size: 16px;
+  font-size: 15px;
   color: #fff;
   white-space: nowrap;
   transition: 0.3s;
