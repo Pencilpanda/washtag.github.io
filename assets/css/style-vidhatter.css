@@ -5,7 +5,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Karla', sans-serif;
   color: #30302f;
   background-color: c64746;
 }
@@ -13,6 +13,10 @@ body {
 a {
   color: #c64746;
   text-decoration: none;
+}
+
+p {
+  
 }
 
 a:hover {
@@ -48,8 +52,10 @@ h6 {
 
 .card-text {
   display: inline-block;
-  font-size: 13px;
-  vertical-align:text-top;
+  margin-top: 2px;
+  font-size: 15px;
+  font-weight: 500;
+  vertical-align: top;
 }
 
 @media (max-width: 450px) {
@@ -178,6 +184,21 @@ h6 {
   height: 75px;
 }
 
+.carousel{
+  min-height: 700px;
+}
+
+.slider{
+  color: black;
+}
+
+.carousel h1{
+color: #00A7FA;}
+
+
+
+
+
 
 #header.fixed-top {
   background: #232323;
@@ -235,7 +256,8 @@ h6 {
   align-items: center;
   justify-content: space-between;
   padding: 25px 15px 25px 15px;
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: 400;
   color: #fff;
   white-space: nowrap;
   transition: 0.3s;
@@ -466,7 +488,7 @@ h6 {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: -1;
+  z-index: -5;
 }
 
 #hero {
@@ -596,12 +618,11 @@ animation: hero-pic 4s ease 0s 1 alternate forwards;
   }
 
   #hero .container {
-    padding-top: 40px;
+    padding-top: 0px;
   }
 
   #hero h1 {
     font-size: 28px;
-    line-height: 36px;
   }
 
   #hero h2 {
@@ -668,18 +689,18 @@ section {
 
 .why-us .box {
   background-color: #c64746;
-  padding: 30px 30px;
+  padding: 10px 30px;
   transition: all ease-in-out 0.3s;
-  margin: auto 10px;
+  margin: auto 20px;
   height: 100%;
   text-align: center;
 }
 
 .why-us .kekbox {
   background-color: #0089cd;
-  padding: 30px 30px;
+  padding: 10px 30px;
   transition: all ease-in-out 0.3s;
-  margin: auto 10px;
+  margin: auto 20px;
   height: 100%;
   text-align: center;
 }
