@@ -518,22 +518,16 @@ color: #00A7FA;}
 }
 
 #hero-pic {
-width: 80%;
+width: 90%;
 position: relative;
 animation: hero-pic 4s ease 0s 1 alternate forwards;
 }
 
-@media (max-width: 750px) {
-  #hero  {
-    margin: 0 auto;
-    width: 100%;
-  }
-}
+
 
 @media (max-width: 750px) {
   #hero .hero-tartalom img{
-    width: 200%;
-    margin-left: -200px;
+    width: 100%;
 }
 }
 
@@ -622,6 +616,7 @@ animation: hero-pic 4s ease 0s 1 alternate forwards;
 
   #hero h1 {
     font-size: 28px;
+    margin-top: 60px;
   }
 
   #hero h2 {
