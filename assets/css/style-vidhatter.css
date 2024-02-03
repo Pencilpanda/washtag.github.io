@@ -205,7 +205,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 0px 0px;
-
+  height: 72px;
 }
 
 #header.fixed-top {
@@ -501,7 +501,7 @@ padding-bottom: 6px;
   width: 100%;
   height: 100vh;
   background-size: cover;
-    position: relative;
+    position: static;
 }
 
 
@@ -528,6 +528,13 @@ padding-bottom: 6px;
 width: 80%;
 position: relative;
 animation: hero-pic 4s ease 0s 1 alternate forwards;
+}
+
+@media (max-width: 750px) {
+  .hero-tartalom #hero-pic {
+    width: 180%;
+    margin-top: 50px;
+}
 }
 
 @keyframes hero-pic {
