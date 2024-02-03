@@ -51,12 +51,12 @@ h6 {
 .card-text {
   display: inline-block;
   font-size: 15px;
-  margin-bottom: 8px;
 }
 
 @media (max-width: 450px) {
   .cards {
     display: none;
+    height: 60px;
   }
 }
 
@@ -64,12 +64,12 @@ h6 {
   margin-right: 0px;
   margin-top: 0px;
   border-radius: 4px;
-  padding: 2px 6px;
+  padding: 5px 6px;
 }
 
 #cards i {
   padding-left: 3px;
-  font-size: 28px;
+  font-size: 21px;
 }
 
 /*--------------------------------------------------------------
@@ -364,15 +364,15 @@ padding-bottom: 7px;
 */
 .mobile-nav-toggle {
   color: #fff;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: bold;
   cursor: pointer;
   display: none;
   line-height: 0;
   transition: 0.5s;
   align-items: end;
-  margin-top: 8px;
-  margin-right: 5px;
+  margin-top: 5px;
+  margin-right: 8px;
 }
 
 .mobile-nav-toggle.bi-x {
