@@ -346,13 +346,13 @@
 }
 .bx-fade-up
 {
-    -webkit-animation: fade-up 0.5s infinite linear;
-            animation: fade-up 0.5s infinite linear;
+    -webkit-animation: fade-up 0.2s infinite linear;
+            animation: fade-up 0.2s infinite linear;
 }
 .bx-fade-up-hover:hover
 {
-    -webkit-animation: fade-up 0.5s infinite linear;
-            animation: fade-up 0.5s infinite linear;
+    -webkit-animation: fade-up 0.2s infinite linear;
+            animation: fade-up 0.2s infinite linear;
 }
 .bx-fade-down
 {
