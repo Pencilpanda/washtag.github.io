@@ -219,9 +219,9 @@ h6 {
 }
 
 .logo {
-max-height: 75px;
-padding-top: 12px;
-padding-bottom: 7px;
+max-height: 70px;
+padding-top: 8px;
+padding-bottom: 6px;
 }
 
 
@@ -499,7 +499,7 @@ padding-bottom: 7px;
 
 #hero {
   width: 100%;
-  height: calc(100vh - 110px);
+  height: 100vh;
   background-size: cover;
     position: relative;
 }
