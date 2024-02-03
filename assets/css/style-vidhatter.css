@@ -48,14 +48,13 @@ h6 {
 
 .card-text {
   display: inline-block;
-  i
   font-size: 15px;
 }
 
 @media (max-width: 450px) {
   .cards {
     display: none;
-    height: 50px;
+    height: 40px;
   }
 }
 
@@ -63,12 +62,12 @@ h6 {
   margin-left: 15px;
   border-radius: 3px;
   border-width: 1px;
-  padding: 3px 8px;
+  padding: 4px 8px;
 }
 
 #cards i {
   padding-left: 3px;
-  font-size: 26px;
+  font-size: 23px;
 }
 
 /*--------------------------------------------------------------
@@ -157,7 +156,10 @@ h6 {
 .felsopiros {
   background: #c64746;
   font-size: 14px;
-  height: 6px;
+  height: 3px;
+  position:;
+  left: 0px;
+  right: 0px;
 }
 
 
