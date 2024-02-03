@@ -246,7 +246,9 @@ padding-bottom: 6px;
   position: relative;
 }
 
-.navbaricon
+.navbaricons {
+display: inline-;}
+
 
 
 .navbar a,
