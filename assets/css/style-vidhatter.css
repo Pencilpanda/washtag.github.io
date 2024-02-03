@@ -42,14 +42,14 @@ h6 {
   border: 0px;
   color: white;
   background-color: #2c2c2c00;
-  margin-left: 5px;
+  margin-left: 4px;
   margin-right: 2px;
 }
 
 .card-text {
   display: inline-block;
-  font-size: 15px;
-  vertical-align:-webkit-baseline-middle;
+  font-size: 14px;
+  vertical-align:text-top;
 }
 
 @media (max-width: 450px) {
