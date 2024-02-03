@@ -7,7 +7,7 @@
 body {
   font-family: 'Karla', sans-serif;
   color: #30302f;
-  background-color: #000000;
+  background-color: #0000001f;
 }
 
 a {
@@ -53,7 +53,7 @@ h6 {
 .card-text {
   display: inline-block;
   margin-top: 2px;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 500;
   vertical-align: top;
 }
@@ -372,9 +372,9 @@ color: #00A7FA;}
   }
 
 .mobile-nav-toggle.bi-x {
+  font-size: 40px;
   color: #ffffff;
   background-color: #C64746;
-  margin-left: 45%;
   margin-top: 8px;
 }
 
@@ -483,6 +483,7 @@ color: #00A7FA;}
 --------------------------------------------------------------*/
 #vidhatter {
   object-fit: cover;
+  mix-blend-mode: multiply;
   opacity: 1;
   width: 100vw;
   height: 100vh;
