@@ -32,7 +32,6 @@ h6 {
 @media (min-width: 450px) {
   .card-mobile-icon {
     display: none;
-    padding-top: 5px;
   }
 }
 
@@ -43,7 +42,7 @@ h6 {
   border: 0px;
   color: white;
   background-color: #2c2c2c00;
-  margin-top: 5px;
+  margin-top: px;
   margin-left: 5px;
   margin-right: 2px;
 }
@@ -56,15 +55,14 @@ h6 {
 @media (max-width: 450px) {
   .cards {
     display: none;
-    height: 60px;
+    height: 50px;
   }
 }
 
 .cards {
-  margin-right: 4px;
-  margin-top: 0px;
-  border-radius: 4px;
-  padding: 5px 8px;
+  margin-left: 15px;
+  border-radius: 3px;
+  padding: 3px 8px;
 }
 
 #cards i {
@@ -146,7 +144,7 @@ h6 {
 --------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
-    transition-delay: 0 !important;
+    transition-delay: 0.1s !important;
   }
 }
 
@@ -219,8 +217,8 @@ h6 {
 }
 
 .logo {
-max-height: 68px;
-padding-top: 8px;
+max-height: 65px;
+padding-top: 5px;
 padding-bottom: 6px;
 }
 
@@ -371,7 +369,7 @@ padding-bottom: 6px;
   line-height: 0;
   transition: 0.5s;
   align-items: end;
-  margin-top: 5px;
+  margin-top: px;
   margin-right: 6px;
 }
 
@@ -758,7 +756,6 @@ section {
 --------------------------------------------------------------*/
 .clients {
   background: #f2f2f2;
-  padding: 15px 0;
   text-align: center;
 }
 
@@ -767,7 +764,6 @@ section {
   filter: grayscale(100);
   transition: all 0.4s ease-in-out;
   display: inline-block;
-  padding: 15px 0;
 }
 
 .clients img:hover {
