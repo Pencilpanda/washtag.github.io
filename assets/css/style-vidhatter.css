@@ -256,7 +256,7 @@ color: #00A7FA;}
   align-items: center;
   justify-content: space-between;
   padding: 25px 15px 25px 15px;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 400;
   color: #fff;
   white-space: nowrap;
@@ -289,7 +289,6 @@ color: #00A7FA;}
 .navbar ul li:hover>a {
   background: #c64746;
   color: #ffffff;
-
 }
 
 .navbar .dropdown ul {
@@ -373,8 +372,10 @@ color: #00A7FA;}
   }
 
 .mobile-nav-toggle.bi-x {
-  color: #cc1616;
-
+  color: #ffffff;
+  background-color: #C64746;
+  margin-left: 45%;
+  margin-top: 8px;
 }
 
 
@@ -429,9 +430,10 @@ color: #00A7FA;}
 .navbar-mobile a:focus {
   display: block;
   font-size: 20px;
+  font-weight: 700;
   text-align: center;
   margin: auto;
-  color: #7c7c7c;
+  color: #adadad;
 }
 
 .navbar-mobile a:hover,
