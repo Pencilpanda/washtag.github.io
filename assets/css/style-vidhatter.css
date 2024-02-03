@@ -531,9 +531,8 @@ animation: hero-pic 4s ease 0s 1 alternate forwards;
 }
 
 @media (max-width: 750px) {
-  .hero-tartalom #hero-pic {
-    width: 180%;
-    margin-top: 50px;
+  #hero .hero-tartalom #hero-pic {
+    width: 200%;
 }
 }
 
