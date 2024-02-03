@@ -153,6 +153,7 @@ h6 {
 --------------------------------------------------------------*/
 
 
+/*--
 .felsopiros {
   background: #c64746;
   font-size: 14px;
@@ -162,18 +163,19 @@ h6 {
   right: 0px;
 }
 
-
+-*/
 
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 #header {
   background-color: #232323;
+  border-top: #c64746 solid 3px;
   transition: all 0.5s;
   z-index: 997;
   padding: 0px 0px;
-  height: 72px;
 }
+
 
 #header.fixed-top {
   background: #232323;
@@ -185,10 +187,15 @@ h6 {
   height: auto;
 }
 
-.logo {
-max-height: 65px;
-padding-top: 5px;
-padding-bottom: 6px;
+#header .logo {
+  height: 65px;
+  font-size: 30px;
+  margin: 0;
+  padding: 4px 0px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 
@@ -263,7 +270,7 @@ padding-bottom: 6px;
   display: block;
   position: absolute;
   left: 0;
-  top: calc(100% + 0px);
+  top: calc(100% + 90px);
   margin: 0;
   z-index: 99;
   opacity: 0;
