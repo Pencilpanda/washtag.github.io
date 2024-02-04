@@ -1432,6 +1432,14 @@
     }
   }
 
+  var myCarousel = document.querySelector('#carouselExample');
+var carousel = new bootstrap.Carousel(myCarousel, {
+  interval: false, // Autoplay kikapcsolása, ha szükséges
+  slidesPerView: 3, // Hány elem látszik egyszerre
+  wrap: true // Wrap a végéről az elejére és vissza
+});
+
+
   /**
    * Data API implementation
    */
