@@ -174,12 +174,150 @@ h6 {
 
 -*/
 
+<<<<<<< HEAD
 
 
 .washtag-slider {
   position: static;
   top: 80px;
   width: 100%;
+=======
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+  background-color: #232323;
+  border-top: #c64746 solid 6px;
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 0px 0px;
+  height: 81px;
+}
+
+.carousel{
+  min-height: 700px;
+}
+
+
+
+#header.fixed-top {
+  background: #232323;
+}
+
+.img-fluid {
+  display: flex;
+  max-width: 80%;
+  height: 80%;
+}
+
+#header .logo {
+  height: 62px;
+  font-size: 30px;
+  margin: 0;
+  padding: 4px 0px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+/**
+* Desktop Navigation 
+*/
+.navbar {
+  padding: 0;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0px 3px;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.navbar li {
+  position: relative;
+}
+
+
+
+
+
+.navbar a,
+.navbar a:focus {
+  font-family: 'Karla', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 15px 25px 15px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #fff;
+  white-space: nowrap;
+  transition: 0.3s;
+}
+
+
+
+.navbar .card-href a {
+  padding: 0px;
+  font-size: 1px;
+;
+}
+
+.navbar .card-href a:hover {
+ padding: 0px;
+}
+
+
+.navbar a i,
+.navbar a:focus i {
+  font-size: 26px;
+  line-height: 0;
+  margin-left: px;
+}
+
+.navbar ul a:hover, 
+.navbar ul .active,
+.navbar ul .active:focus,
+.navbar ul li:hover>a {
+  background: #c64746;
+  color: #ffffff;
+}
+
+.navbar .dropdown ul {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: calc(100% + 90px);
+  margin: 0;
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  background: #fff;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  transition: 0.3s;
+}
+
+.navbar .dropdown ul li {
+  min-width: 200px;
+}
+
+.navbar .dropdown ul a {
+  padding: 50px 50px;
+  color: #ffffff;
+}
+
+.navbar .dropdown ul a i {
+  font-size: 12px;
+>>>>>>> 89cd5ccd886efc1419b11edbf49d889fad1568c6
 }
 
 
@@ -205,7 +343,6 @@ h6 {
 
 #vidhatter {
   object-fit: cover;
-  mix-blend-mode: multiply;
   opacity: 1;
   width: 100vw;
   position: fixed;
@@ -218,7 +355,10 @@ h6 {
   width: 100%;
   height: 100%;
   background-size: cover;
+<<<<<<< HEAD
   position: ab;
+=======
+>>>>>>> 89cd5ccd886efc1419b11edbf49d889fad1568c6
   padding-bottom: 50px;
 }
 
@@ -243,11 +383,11 @@ h6 {
 }
 
 #hero-pic {
-width: 90%;
+width: 80%;
 position: relative;
 animation: hero-pic 4s ease 0s 1 alternate forwards;
+margin-top: 10px;
 }
-
 
 
 @media (max-width: 750px) {
@@ -303,7 +443,7 @@ animation: hero-pic 4s ease 0s 1 alternate forwards;
 #hero h2 {
   color: #eee;
   font-family: 'Inconsolata', monospace;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   font-size: 24px;
 }
 
@@ -336,11 +476,15 @@ animation: hero-pic 4s ease 0s 1 alternate forwards;
   }
 
   #hero .container {
-    padding-top: 0px;
+    padding-top: 100px;
   }
 
   #hero h1 {
     font-size: 28px;
+<<<<<<< HEAD
+=======
+    margin-top:50px;
+>>>>>>> 89cd5ccd886efc1419b11edbf49d889fad1568c6
   }
 
   #hero h2 {
@@ -356,13 +500,18 @@ animation: hero-pic 4s ease 0s 1 alternate forwards;
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 30px 0;
+  margin: 0 auto;
+  padding: 0px 0;
   overflow: hidden;
 }
 
 .section-title {
   text-align: center;
+<<<<<<< HEAD
   padding: 0px 0;
+=======
+  padding: 0;
+>>>>>>> 89cd5ccd886efc1419b11edbf49d889fad1568c6
   position: relative;
   font-family: 'Inconsolata', monospace;
 }
@@ -401,45 +550,104 @@ section {
 # Us
 --------------------------------------------------------------*/
 .why-us {
+  position: static;
   background-color: #232323;
   font-family: 'Inconsolata', monospace;
+<<<<<<< HEAD
   padding: 40px;
+=======
+  padding-top: 50px;
+  padding-bottom: 50px;
+>>>>>>> 89cd5ccd886efc1419b11edbf49d889fad1568c6
 }
 
 .why-us .box {
   background-color: #c64746;
   transition: all ease-in-out 0.3s;
+<<<<<<< HEAD
   margin: auto;
   height: 100%;
+=======
+  text-align: left;
+  width: 93%;
+  margin: 0 auto;
 }
+
+.megafon-icon {
+    text-align: center;
+    background-color: #A33939;
+    border-left: #7A2B2B solid 10px;
+    max-width: 100px;
+}
+
+
+.invite-icon {
+  text-align: center;
+  background-color: #005580;
+  border-left: #003A57 solid 10px;
+  max-width: 100px;
+  display: flex;
+>>>>>>> 89cd5ccd886efc1419b11edbf49d889fad1568c6
+}
+
 
 .why-us .kekbox {
   background-color: #0089cd;
   transition: all ease-in-out 0.3s;
+<<<<<<< HEAD
   margin: auto 30px;
   height: 100%;
+=======
+  text-align: left;
+  width: 93%;
+  margin: 0 auto;
+>>>>>>> 89cd5ccd886efc1419b11edbf49d889fad1568c6
+}
+
+.megafon-text {
+  padding: 20px 20px;
+}
+
+<<<<<<< HEAD
+.why-us h4 {
+  text-align: left;
+  font-size: 32px;
+=======
+.invite-text {
+  padding: 20px 20px;
 }
 
 
 .why-us h4 {
-  text-align: left;
-  font-size: 32px;
+  font-size: 22px;
+>>>>>>> 89cd5ccd886efc1419b11edbf49d889fad1568c6
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 10px;
   color: #ffffff;
   font-family: 'Inconsolata', monospace;
+  text-align: left;
 }
 
 .why-us .box p {
   text-align: left;
   color: #FFFFFF;
+<<<<<<< HEAD
   font-size: 18px;
   font-weight: 300;
   margin-bottom: 20px;
   padding: 0;
   width: 100%;
   display: block;
+=======
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  text-align: left;
+>>>>>>> 89cd5ccd886efc1419b11edbf49d889fad1568c6
 }
 
 
@@ -460,7 +668,9 @@ section {
 .why-us i {
   color: #ffffff;
   font-size: 50px;
+  margin-top: 13px;
   display: inline;
+
 }
 
 .megafon-icon {
@@ -477,6 +687,8 @@ section {
 .clients {
   background: #f2f2f2;
   text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .clients img {
@@ -500,22 +712,26 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+
+
+
 .services {
   background-color: #30302f;
   color: #ffffff;
+  padding-top: 40px;
 }
 
 .section-title span {
-  font-size: 29px;
-  font-weight:lighter;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .services .icon-box {
   text-align: center;
-  padding: 80px 20px;
+  padding: 60px 20px;
   transition: all ease-in-out 0.3s;
   background-color: #0089cd;
-  margin: 16px;
+  margin: 12px;
   position:relative;
 }
 
@@ -565,7 +781,7 @@ section {
 
 .services .icon-box h4 {
   font-weight: 700;
-  margin-bottom: 17px;
+  margin-bottom: 20px;
   font-size: 24px;
   font-family: 'Inconsolata', monospace;
   color: #ffffff;
@@ -579,16 +795,16 @@ section {
 
 .services .icon-box p {
   line-height: 30px;
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 0;
   font-family: 'Inconsolata', monospace;
-  font-weight: 200;
+  font-weight: 400;
 
 }
 
 .services .icon-box:hover {
   background: #c64746;
-  padding: 70px 20px 90px 20px;
+  padding: 60px 20px;
 }
 
 .services .icon-box:hover .icon {
@@ -680,10 +896,24 @@ section {
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
+
+
 #pricing {
+  text-align: center;
   background-color: #30302f;
   font-family: 'Inconsolata', monospace;
-  padding-bottom: 140px;
+  padding-bottom: 10px;
+  padding-top: 80px;
+  width:100%;
+}
+
+#carouselExampleAutoplaying {
+  text-align: center;
+}
+
+.carousel-item .active {
+  text-align: center;
+  margin: 0 auto;
 }
 
 #pricing p {
@@ -692,21 +922,21 @@ section {
 
 
 .pricing .box {
-  padding: 5px;
+
   background: #0089cd;
+  margin: 50px auto;
+  padding: 15px;
   text-align: center;
   border-radius: 8px;
-  position: relative;
   overflow: hidden;
-  max-width: 90%;
-  margin: auto;
+  max-width: 280px;
 
 }
 
-.pricing .box h3 {
+.pricing h3 {
   font-weight: bold;
-  padding: 13px;
-  font-size: 32px;
+  padding: 7px;
+  font-size: 30px;
   text-transform: uppercase;
   color: #ffffff;
   letter-spacing: 5px;
@@ -778,21 +1008,11 @@ section {
   text-transform: uppercase
 }
 
-.pricing .box ul i {
-  color: #c64746;
-  font-size: 18px;
-  padding-right: 4px;
-}
-
 .pricing .box ul .na {
   color: #ccc;
-  text-decoration: line-through;
 }
 
-.pricing .box .btn-wrap {
-  padding: 15px;
-  text-align: center;
-}
+
 
 .pricing .box .btn-buy {
   background-color: #232323;
@@ -828,18 +1048,22 @@ section {
 
 .pricing .featured {
   background: #c64746;
-  box-shadow: none;
-  color: #fff;
-  height: 100%;
-
+  margin: 50px auto;
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 280px;
 }
 
 .pricing .pro {
   background: #4d4e4e;
-  box-shadow: none;
-  color: #fff;
-  height: 100%;
-
+  margin: 50px auto;
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 280px;
 }
 
 .pricing .featured h3,
@@ -854,10 +1078,7 @@ section {
   color: rgba(255, 255, 255, 0.58);
 }
 
-.pricing .featured .btn-wrap {
-  padding: 15px;
-  text-align: center;
-}
+
 
 .pricing .featured .btn-buy {
   background-color: #232323;
