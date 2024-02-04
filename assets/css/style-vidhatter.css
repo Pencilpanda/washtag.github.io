@@ -175,11 +175,6 @@ h6 {
 -*/
 
 
-#header-navbar {
-  position: fixed;
-  width: 100%;
-}
-
 
 .washtag-slider {
   position: static;
@@ -207,13 +202,12 @@ h6 {
       font-size: 21px;
     }
 
-/*
+
 #vidhatter {
   object-fit: cover;
   mix-blend-mode: multiply;
   opacity: 1;
   width: 100vw;
-  height: 80%;
   position: fixed;
   top: 0;
   left: 0;
@@ -222,9 +216,10 @@ h6 {
 
 #hero {
   width: 100%;
-  height: 80%;
+  height: 100%;
   background-size: cover;
-    position: static;
+  position: ab;
+  padding-bottom: 50px;
 }
 
 
@@ -408,44 +403,43 @@ section {
 .why-us {
   background-color: #232323;
   font-family: 'Inconsolata', monospace;
+  padding: 40px;
 }
 
 .why-us .box {
   background-color: #c64746;
-  padding: 10px 30px;
   transition: all ease-in-out 0.3s;
-  margin: auto 30px;
+  margin: auto;
   height: 100%;
-  text-align: center;
 }
 
 .why-us .kekbox {
   background-color: #0089cd;
-  padding: 10px 30px;
   transition: all ease-in-out 0.3s;
   margin: auto 30px;
   height: 100%;
-  text-align: center;
 }
 
 
-.why-us  h4 {
+.why-us h4 {
+  text-align: left;
   font-size: 32px;
   font-weight: 700;
+  margin-top: 20px;
   margin-bottom: 10px;
   color: #ffffff;
   font-family: 'Inconsolata', monospace;
 }
 
 .why-us .box p {
+  text-align: left;
   color: #FFFFFF;
   font-size: 18px;
   font-weight: 300;
-  margin: 0;
+  margin-bottom: 20px;
   padding: 0;
   width: 100%;
   display: block;
-  text-align: center;
 }
 
 
@@ -467,6 +461,14 @@ section {
   color: #ffffff;
   font-size: 50px;
   display: inline;
+}
+
+.megafon-icon {
+  background-color: #A33939;
+}
+
+.invite-icon {
+  background-color: #0070A8;
 }
 
 /*--------------------------------------------------------------

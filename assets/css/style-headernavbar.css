@@ -46,7 +46,7 @@ margin-right: -17px;
 
 .card-text {
   display: inline-block;;
-  font-size: 12x;
+  font-size: 11x;
   font-weight: 600;
 }
 
@@ -66,7 +66,7 @@ margin-right: -17px;
 }
 
 #cards i {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 
@@ -114,12 +114,10 @@ padding-bottom: 7px;
 * Desktop Navigation 
 */
 .navbar {
-  padding: 0;
 }
 
 .navbar ul {
-  margin-top: px;
-  padding: 0;
+  padding-top: 15px;
   display: flex;
   list-style: none;
   align-items: center;
