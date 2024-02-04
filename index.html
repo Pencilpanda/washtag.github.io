@@ -21,9 +21,12 @@
     rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css" >
+  <link rel="stylesheet" href="assets/vendor/bootstrap-icons/bootstrap-icons.css" >
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
@@ -88,24 +91,18 @@
       </nav><!-- .navbar -->
 
     </div>
-  </header><!-- End Header -->
-
-  <video src="assets/img/1234-bckgrnd.mov" autoplay loop muted id="vidhatter"></video>
---
-
-
+  </header>
+  
+  <!-- End Header -->
   <section id="hero" class="d-flex align-items-center">
-
+    <video src="assets/img/1234-bckgrnd.mov" autoplay="" loop="" muted="" id="vidhatter" class="scrolled-offset"></video>
     <div class="container position-relative hero-tartalom" data-aos="fade-up" data-aos-delay="500">
       <img src="./assets/img/slider-car-blue-1800x814.png" alt="" id="hero-pic" class="rounded mx-auto d-block">
       <h1>Hűségkártya csomagok</h1>
       <h2>Extra kreditekkel jutalmazzuk az elkötelezettségedet.</h2>
       <a href="#about" class="btn-get-started scrollto">Részletek <i class="bi bi-arrow-up-right"></i></a>
-
-
     </div>
   </section>
-
   <!-- End Hero -->
 
   <main id="main">
@@ -113,35 +110,44 @@
 
 
     <!-- ======= Why Us Section ======= -->
+
+
+    
+
+
+<!-- why Us section -->
+
     <section id="why-us" class="why-us">
-      <section id="why-us" class="why-us">
         <div class="container">
 
-          <div class="row">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-lg-6 mt-4 mt-lg-0 aos-init aos-animate" data-aos="fade-up">
+                <div class="box">
+                  <div class="row">
+                    <div class="col-4 megafon-icon d-flex justify-content-center align-items-center"><i class="bi bi-megaphone"></i></div>
+                    <div class="col-8 megafon-text"><h4>Regisztráció</h4>
+                      <p>Most 200 extra kreditet kapnak az újonnan regisztráltak. Lorem ipsum dzre marete why up reprazin.</p></div>
+                  </div>
+                </div>
+            </div>
+
 
             <div class="col-lg-6 mt-4 mt-lg-0 aos-init aos-animate" data-aos="fade-up">
-              <div class="box">
-                <i class="bi bi-megaphone"></i>
-                <h4>Regisztráció</h4>
-                <p>Most 200 extra kreditet kapnak az újonnan regisztráltak. Lorem ipsum dzre marete why up reprazin.
-                </p>
-              </div>
-            </div>
-
-            <div class="col-lg-6 mt-4 mt-lg-0 aos-init aos-animate" data-aos="fade-up" data-aos-delay="150">
               <div class="box kekbox">
-                <i class="bi bi-cursor"></i>
-                <h4>Barátok meghívása</h4>
-                <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para
-                  dest</p>
+                <div class="row">
+                  <div class="col-4 invite-icon d-flex justify-content-center align-items-center"><i class="bi bi-cursor"></i></div>
+                  <div class="col-8 invite-text"><h4>Barátok meghívása</h4>
+                    <p>Most 200 extra kreditet kapnak az újonnan regisztráltak. Lorem ipsum dzre marete why up reprazin.</p></div>
+                </div>
               </div>
-            </div>
+          </div>
 
           </div>
 
         </div>
-      </section>
-    </section><!-- End Why Us Section -->
+    </section>
+    
+  <!-- End Why Us Section -->
 
     <!-- ======= Clients Section ======= -->
     <section id="clients" class="clients">
@@ -188,7 +194,7 @@
         </div>
 
         <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="fade-up">
             <div class="icon-box">
               <div class="icon"><i class="bi bi-cloudy"></i></div>
               <h4><a href="">Aktív hab</a></h4>
@@ -199,7 +205,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up"
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="fade-up"
             data-aos-delay="50">
             <div class="icon-box">
               <div class="icon"><i class="bi bi-feather"></i></div>
@@ -221,7 +227,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="50">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="50">
             <div class="icon-box">
               <div class="icon"><i class="bi bi-wind"></i></div>
               <h4><a href="">Porszívó</a></h4>
@@ -230,7 +236,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="50">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="50">
             <div class="icon-box">
               <div class="icon"><i class="bi bi-droplet"></i></div>
               <h4><a href="">Cseppmentes öblítés</a></h4>
@@ -239,7 +245,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="50">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="50">
             <div class="icon-box">
               <div class="icon"><i class="bi bi-magic"></i></div>
               <h4><a href="">Ápoló viasz</a></h4>
@@ -252,7 +258,8 @@
         </div>
 
       </div>
-    </section><!-- End Services Section -->
+    </section>
+    <!-- End Services Section -->
 
     <!-- ======= Cta Section ======= -->
     <section id="cta" class="cta">
@@ -265,7 +272,8 @@
         </div>
 
       </div>
-    </section><!-- End Cta Section -->
+    </section>
+    <!-- End Cta Section -->
 
 
 
@@ -273,73 +281,94 @@
     <section id="pricing" class="pricing">
       <div class="container">
         <div class="section-title">
-          <h2>KREDITEK</h2>
+          <h2>KREDITEKdd</h2>
         </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="150">
-            <div class="box">
-              <h3>Silver Boost</h3>
-              <h6>csomag</h6>
-              <h4>5.000<sup>Ft</sup></h4>
-              <i class="bi bi-stopwatch" id="washtime"></i> <span>50 perc</span>
-              <h5><i class="bi bi-gift"></i><br>+150 extra kredit</h5>
-              <ul>
-                <li>Korlátlan ideig felhasználható</li>
-                <li>Bármelyik programra igénybevehető</li>
-                <li class="na">lejárati idő</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">vásárlás <i class="bi bi-bag"></i></a>
+       
+
+
+
+
+
+        <div id="carouselExampleAutoplaying" class="carousel slide " data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+
+              <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="10">
+                <div class="box">
+                  <h3>Silver Boost</h3>
+                  <h6>csomag</h6>
+                  <h4>5.000<sup>Ft</sup></h4>
+                  <i class="bi bi-stopwatch" id="washtime"></i> <span>50 perc</span>
+                  <h5><i class="bi bi-gift"></i><br>+150 extra kredit</h5>
+                  <ul>
+                    <li>Korlátlan ideig felhasználható</li>
+                    <li>Bármelyik programra igénybevehető</li>
+                    <li class="na">lejárati idő</li>
+                  </ul>
+                  <div class="btn-wrap">
+                    <a href="#" class="btn-buy">vásárlás <i class="bi bi-bag"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="col-lg-4 col-md-6 mt-4 mt-md-0" data-aos="zoom-in">
+                <div class="box featured">
+                  <h3>Gold Advantage</h3>
+                  <h6>csomag</h6>
+    
+    
+                  <h4>10.000<sup>Ft</sup></h4>
+    
+                  <i class="bi bi-stopwatch" id="washtime"></i> <span>100 perc</span>
+    
+                  <h5><i class="bi bi-gift"></i><br>+450 extra kredit</h5>
+                  <ul>
+                    <li>Korlátlan ideig felhasználható</li>
+                    <li>Bármelyik programra igénybevehető</li>
+                    <li class="na">lejárati idő</li>
+                  </ul>
+                  <div class="btn-wrap">
+                    <a href="#" class="btn-buy">vásárlás <i class="bi bi-bag"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="col-lg-4 col-md-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="10">
+                <div class="box pro">
+                  <h3>Platinum Power</h3>
+                  <h6>csomag</h6>
+    
+    
+                  <h4>20.000<sup>Ft</sup></h4>
+    
+                  <i class="bi bi-stopwatch" id="washtime"></i> <span>200 perc</span>
+    
+                  <h5><i class="bi bi-gift"></i><br>+1000 extra kredit</h5>
+                  <ul>
+                    <li>Korlátlan ideig felhasználható</li>
+                    <li>Bármelyik programra igénybevehető</li>
+                    <li class="na">lejárati idő</li>
+                  </ul>
+                  <div class="btn-wrap">
+                    <a href="#" class="btn-buy">vásárlás <i class="bi bi-bag"></i></a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-
-          <div class="col-lg-4 col-md-6 mt-4 mt-md-0" data-aos="zoom-in">
-            <div class="box featured">
-              <h3>Gold Advantage</h3>
-              <h6>csomag</h6>
-
-
-              <h4>10.000<sup>Ft</sup></h4>
-
-              <i class="bi bi-stopwatch" id="washtime"></i> <span>100 perc</span>
-
-              <h5><i class="bi bi-gift"></i><br>+450 extra kredit</h5>
-              <ul>
-                <li>Korlátlan ideig felhasználható</li>
-                <li>Bármelyik programra igénybevehető</li>
-                <li class="na">lejárati idő</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">vásárlás <i class="bi bi-bag"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
-            <div class="box pro">
-              <h3>Platinum Power</h3>
-              <h6>csomag</h6>
-
-
-              <h4>20.000<sup>Ft</sup></h4>
-
-              <i class="bi bi-stopwatch" id="washtime"></i> <span>200 perc</span>
-
-              <h5><i class="bi bi-gift"></i><br>+1000 extra kredit</h5>
-              <ul>
-                <li>Korlátlan ideig felhasználható</li>
-                <li>Bármelyik programra igénybevehető</li>
-                <li class="na">lejárati idő</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">vásárlás <i class="bi bi-bag"></i></a>
-              </div>
-            </div>
-          </div>
-
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
 
+        
       </div>
     </section><!-- End Pricing Section -->
 
