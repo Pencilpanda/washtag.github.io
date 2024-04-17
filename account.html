@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Washtag / Premium Car Spa</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.ico" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800&family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style-vidhatter.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Top Bar   ======= -->
+
+  <section id="topbar" class="d-flex align-items-center">
+
+  </section>
+
+
+   <!-- ======= Header ======= -->
+   <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <img src="./assets/img/washtag-header-logo-white.svg" alt="" class="logo img-fluid">
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">OTTHON</a></li>
+          <li><a class="nav-link scrollto" href="#rolunk">INFÓ</a></li>
+          <li><a class="nav-link scrollto" href="#cta">PARTNERSÉG</a></li>
+          <li><a class="nav-link scrollto " href="#pricing">KREDIT-CSOMAGOK</a></li>
+          <li><a class="nav-link scrollto" href="#contact">KONTAKT</a></li>
+        </ul>
+
+        <i class="bi bi-list mobile-nav-toggle"></i>
+
+
+        <button id="cards" class="btn btn-outline-light" href="./account-002.html">KÁRTYA <i
+            class="bi bi-credit-card"></i></button>
+
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+
+  <video src="./assets/img/Sequence 01_2_bw.mp4" id="vidhatter" loop autoplay muted></video>
+  <!-- ======= Hero Section ======= -->
+  <main>
+    <section id="account-bckg" class="d-flex align-items-center">
+      <div class="container position-relative" data-aos="fade-up" data-aos-delay="500">
+
+        <div class="account">
+          <button class="tablink login" onclick="openPage('Home', this, '#0089cd')" id="defaultOpen"><i
+              class="bi bi-box-arrow-in-right"></i> Bejelentkezés</button>
+          <button class="tablink" onclick="openPage('News', this, '#c64746')"><i class="bi bi-plus-square"></i>
+            Regisztráció</button>
+
+
+          <div id="Home" class="tabcontent">
+           
+            <!-- <i class="bi bi-person-lock account-icon"></i> -->
+            <main class="form-signin w-100 m-auto">
+
+              <form action="/action_page.php">
+                <div class="mb-3 mt-3">                  
+                  <label for="email" class="form-label">Email:</label>
+                  <input type="email" class="form-control" id="email" name="email">
+                </div>
+                <div class="mb-3">
+                  <label for="pwd" class="form-label">Password:</label>
+                  <input type="password" class="form-control" id="pwd" name="pswd">
+                </div>
+                <div class="form-check mb-3">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" name="remember"> Megjegyzés
+                  </label>
+                </div>
+
+                <button class="btn btn-primary w-100 py-2" type="submit">Belépés</button>
+              </form>
+            </main>
+
+          </div>
+
+          <div id="News" class="tabcontent">
+           <!-- 
+            <i class="bi bi-person-plus account-icon"></i>
+            -->
+
+            
+            <main class="form-signup w-100 m-auto">
+
+              <form action="/action_page.php">
+                <div class="mb-3 mt-3">
+                  <label for="email" class="form-label">Email:</label>
+                  <input type="email" class="form-control" id="email" name="email">
+                </div>
+                <div class="mb-3">
+                  <label for="pwd" class="form-label">Password:</label>
+                  <input type="password" class="form-control" id="pwd" name="pswd">
+                </div>
+                <div class="form-check mb-3">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" name="remember"> Megjegyzés
+                  </label>
+                </div>
+
+                <button class="btn btn-primary w-100 py-2" type="submit">Regisztrál</button>
+              </form>
+            </main>
+
+          </div>
+        </div>
+        <script>
+          function openPage(pageName, elmnt, color) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+              tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < tablinks.length; i++) {
+              tablinks[i].style.backgroundColor = "";
+            }
+            document.getElementById(pageName).style.display = "block";
+            elmnt.style.backgroundColor = color;
+          }
+
+          // Get the element with id="defaultOpen" and click on it
+          document.getElementById("defaultOpen").click();
+        </script>
+
+      </div>
+    </section><!-- End Hero -->
+  </main>
+
+  <!-- ======= Contact Section ======= -->
+  <section id="contact" class="contact">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Kontakt</h2>
+      </div>
+
+      <div class="row" data-aos="fade-up">
+        <div class="col-lg-6">
+          <div class="info-box mb-4">
+            <i class="bx bx-map"></i>
+            <h3>Autómosóink</h3>
+            <p>Debrecen, Kishegyesi út 1, 4031 @ Tesco Parkoló</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="info-box  mb-4">
+            <i class="bx bx-envelope"></i>
+            <h3>Email</h3>
+            <p>hello@washtag.hu</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="info-box  mb-4">
+            <i class="bx bx-phone-call"></i>
+            <h3>Telefon</h3>
+            <p>+36 20 499 0085</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row" data-aos="fade-up">
+
+        <div class="col-lg-6 ">
+          <iframe class="mb-4 mb-lg-0"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d829.1675386847593!2d21.607254757500478!3d47.52937928546436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47470f61fdc38a91%3A0xd05b11d53aa9ec86!2zw5Zua2lzem9sZ8OhbMOzIGF1dMOzbW9zw7M!5e0!3m2!1shu!2shu!4v1700758535651!5m2!1shu!2shu"
+            frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
+        </div>
+
+        <div class="col-lg-6">
+          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <div class="row">
+              <div class="col-md-6 form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Neved" required>
+              </div>
+              <div class="col-md-6 form-group mt-3 mt-md-0">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Email címed" required>
+              </div>
+            </div>
+            <div class="form-group mt-3">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Tárgy" required>
+            </div>
+            <div class="form-group mt-3">
+              <textarea class="form-control" name="message" rows="5" placeholder="Üzenet" required></textarea>
+            </div>
+            <div class="my-3">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Üzenetedet megkaptuk! Köszönjük!</div>
+            </div>
+            <div class="text-center"><button type="submit">Küldés</button></div>
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  
+  <footer>
+    <div class="grid text-center">
+          <a href="https://www.facebook.com/washtaghu" target="_blank"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.instagram.com/washtaghu" target="_blank"></a><i class="bi bi-instagram"></i></a>
+          <a href="https://www.google.com/washtaghu" target="_blank"></a><i class="bi bi-google"></i></a>
+          <a href="https://www.tiktok.com/@washtaghu" target="_blank"></a><i class="bi bi-tiktok"></i></a>
+      
+      <div class="iratok">
+       
+       <ul> 
+        <li><div class="g-col-6 g-col-md-6"><a href="#">Általános szerződési feltételek</a></div></li>
+        
+      <li><div class="g-col-6 g-col-md-6"><a href="#">Adatkezelés</a></div></li>
+      </ul>
+      </div>
+        <div class="g-col-2 g-col-md-2"><img src="./assets/img/washtag-header-logo-white.svg"  width="200px"></div>
+      
+    </div>
+        
+  </footer>
+    
+
+  <!-- End Footer -->
+
+  <section id="topbar" class="d-flex align-items-center">
+
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
