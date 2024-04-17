@@ -43,8 +43,7 @@ h6 {
   color: white;
   background-color: #2c2c2c00;
   font-size: 25px;
-  margin-left: 10px;
-  margin-right: 5px;
+  margin-left: 5px;
 }
 
 .card-text {
@@ -150,60 +149,14 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Top Bar
---------------------------------------------------------------*/
-#topbar {
-  background: #c64746;
-  font-size: 14px;
-  height: 5px;
-  padding: 0;
-  color: rgba(255, 255, 255, 0.6);
-  font-family: 'Inconsolata', monospace;
-  margin: auto;
-}
-
-#topbar .contact-info a {
-  line-height: 0;
-  color: rgba(255, 255, 255, 0.6);
-  transition: 0.3s;
-}
-
-#topbar .contact-info a:hover {
-  color: #fff;
-}
-
-#topbar .contact-info i {
-  color: #ffffff;
-  line-height: 0;
-  margin-top: 5px;
-  margin: auto;
-  text-align: center;
-}
-
-#topbar .contact-info .bi-phone {
-  margin-left: 15px;
-}
-
-#topbar .social-links a {
-  color: rgba(255, 255, 255, 0.6);
-  padding: 4px 5px;
-  display: inline-block;
-  line-height: 1px;
-  transition: 0.3s;
-}
-
-#topbar .social-links a:hover {
-  color: #fff;
-}
-
-/*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 #header {
+  border-top: #c64746 4px solid;
   background-color: #232323;
   transition: all 0.5s;
   z-index: 997;
-  height: 70px;  
+  height: 75px;  
 }
 
 #header.fixed-top {
