@@ -60,7 +60,7 @@ h6 {
   font-size: 14px;
   border: 1px solid white;
   border-radius: 4px;
-  padding: 5px 6px;
+  padding: 4px 5px;
 }
 
 #cards i {
@@ -167,7 +167,7 @@ h6 {
 }
 
 .logo {
-max-height: 55px;
+max-height: 58px;
 padding-top: 6px;
 padding-bottom: 3px;
 }
