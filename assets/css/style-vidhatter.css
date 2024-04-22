@@ -57,6 +57,7 @@ h6 {
 }
 
 .cards {
+
   margin-left: 10px;
   margin-right: 0px;
   font-size: 14px;
@@ -164,7 +165,7 @@ h6 {
 }
 
 .img-fluid {
-  max-width: 80%;
+  max-width: 70%;
   height: auto;
 }
 
